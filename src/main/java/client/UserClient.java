@@ -32,7 +32,6 @@ public class UserClient extends RestClient {
                 .post(USER_PATH + "login");
     }
 
-
     @Step("Get data about user")
     public ValidatableResponse getDataUser(String accessToken) {
 
@@ -78,6 +77,5 @@ public class UserClient extends RestClient {
                     .delete("/api/auth/user");
         }
         return null;
-
     }
 }

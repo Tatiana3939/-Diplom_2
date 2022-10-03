@@ -50,7 +50,7 @@ public class CreateOrderTest {
         oderClient = new OrderClient();
         oder = new Order(ingredients);
         response = oderClient.createOrderWithoutLogin(oder);
-        response.then().assertThat().body("success", equalTo(true)).and().statusCode(200);
+        response.then().assertThat().statusCode(200).and().body("success", equalTo(true));
     }
 
     @Test

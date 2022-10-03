@@ -5,7 +5,6 @@ import model.Ingredient;
 
 import static io.restassured.RestAssured.given;
 
-
 public class IngredientClient extends RestClient {
     private static final String USER_PATH = "api/ingredients/";
 
