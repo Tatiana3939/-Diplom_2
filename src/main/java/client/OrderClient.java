@@ -1,6 +1,9 @@
+package client;
+
 import io.qameta.allure.Step;
 import static io.restassured.RestAssured.given;
 import io.restassured.response.Response;
+import model.Order;
 
 public class OrderClient extends RestClient {
     private static final String USER_PATH = "/api/orders/";

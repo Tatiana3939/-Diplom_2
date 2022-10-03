@@ -1,6 +1,10 @@
+package client;
+
+import client.RestClient;
 import io.qameta.allure.Step;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
+import model.User;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;

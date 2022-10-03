@@ -1,4 +1,7 @@
+package client;
+
 import io.qameta.allure.Step;
+import model.Ingredient;
 
 import static io.restassured.RestAssured.given;
 

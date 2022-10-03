@@ -1,3 +1,5 @@
+package model;
+
 public class Data {
     private String _id;
     private String name;

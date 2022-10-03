@@ -1,3 +1,7 @@
+package model;
+
+import model.Data;
+
 import java.util.List;
 
 public class Ingredient {
